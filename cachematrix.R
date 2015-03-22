@@ -38,7 +38,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## If it has not been previously calculated and stored, it calculates it and then stores it.
 ##
 ##
-## Initialize cacheSolve() and which takes a matrix you'd passed in makeCacheMatrix() earlier for an argument:
+## Initialize cacheSolve(), which takes a matrix you'd passed in makeCacheMatrix() earlier for an argument:
 cacheSolve <- function(x) {
         ## Look through the cache to see if the inverse of your matrix has been stored:
         invrs <- x$getMatrixInverse()
