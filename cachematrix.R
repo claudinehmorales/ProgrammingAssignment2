@@ -1,4 +1,4 @@
-## The makeCacheMatrix() function forms a list that of functions that: 
+## The makeCacheMatrix() function forms a list of functions that: 
 ## 1. set the value of a matrix and assign it to the global environment
 ## 2. get the value of this matrix 
 ## 3. set the value of the inverse of this matrix and assign it to the global environment
