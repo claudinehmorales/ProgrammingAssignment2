@@ -3,8 +3,8 @@
 ## 2. get the value of this matrix 
 ## 3. set the value of the inverse of this matrix and assign it to the global environment
 ## 4. get the value of the inverse of this matrix 
-
-
+##
+##
 ## Initialize the makeCacheMatrix() function, which takes one matrix for an argument:
 makeCacheMatrix <- function(x = matrix()) { 
         ## First, initialize the invrs variable:
@@ -28,16 +28,16 @@ makeCacheMatrix <- function(x = matrix()) {
         ## Finally, a list of the above functions and their respective values:
         list(set = set, get = get, setMatrixInverse = setMatrixInverse, getMatrixInverse = getMatrixInverse)
 }
-
-
-
-## The cacheSolve() function calculates the inverse of a matrix that you you'd passed in to makeCacheMatrix()
+##
+##
+##
+## The cacheSolve() function calculates the inverse of a matrix that you'd passed in makeCacheMatrix()
 ## earlier; however, before it performs the calculation, it searches through the cache (global environment) 
 ## to see if the inverse of your matrix has already been calculated and stored. If it has been calculated 
 ## and stored previously, it does not go through the calculation at all. Rather, it returns the cached inverse. 
 ## If it has not been previously calculated and stored, it calculates it and then stores it.
-
-
+##
+##
 ## Initialize cacheSolve() and which takes a matrix you'd passed in makeCacheMatrix() earlier for an argument:
 cacheSolve <- function(x) {
         ## Look through the cache to see if the inverse of your matrix has been stored:
