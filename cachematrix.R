@@ -5,7 +5,7 @@
 ## 4. get the value of the inverse of this matrix 
 
 
-## Initialize the makeCacheMatrix() function, which only takes one matrix for an argument:
+## Initialize the makeCacheMatrix() function, which takes one matrix for an argument:
 makeCacheMatrix <- function(x = matrix()) { 
         ## First, initialize the invrs variable:
         invrs <- NULL 
